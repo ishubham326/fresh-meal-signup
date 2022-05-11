@@ -1,0 +1,25 @@
+.step {
+  text-align: center;
+  width: 100%;
+  img {
+    width: 200px;
+  }
+
+  h2 {
+    font-family: "Alegreya", serif;
+    color: #265a44;
+  }
+}
+
+.step:nth-child(2) {
+  img {
+    width: 170px;
+    padding-bottom: 15px;
+  }
+}
+
+// @media only screen and (max-width: 900px) {
+//   .step {
+//     display: none;
+//   }
+// }

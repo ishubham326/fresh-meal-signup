@@ -1,0 +1,48 @@
+.nav_bar {
+  background: #fbfaf4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 50px;
+  height: 10vh;
+}
+
+.logo img {
+  width: 200px;
+}
+
+.nav_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav_list li {
+  cursor: pointer;
+}
+
+.nav_list li::after {
+  content: "";
+  width: 0px;
+  height: 1px;
+  display: block;
+  background: #5e5e5e;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+.nav_list li:hover::after {
+  width: 100%;
+}
+/*# sourceMappingURL=navbar.css.map */

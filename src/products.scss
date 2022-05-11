@@ -1,0 +1,14 @@
+.product_cart_container {
+  padding: 25px 50px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  background-color: #dbebdf91;
+  //background-color: #ebdac491;
+}
+.products {
+  width: 65%;
+}
+.cart {
+  width: 35%;
+}

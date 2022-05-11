@@ -1,0 +1,38 @@
+.nav_bar {
+  background: #fbfaf4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  height: 10vh;
+}
+
+.logo {
+  //text-align: center;
+  img {
+    width: 200px;
+  }
+}
+
+.nav_list {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  align-items: center;
+
+  li {
+    cursor: pointer;
+  }
+  li::after {
+    content: "";
+    width: 0px;
+    height: 1px;
+    display: block;
+    background: rgb(94, 94, 94);
+    transition: 300ms;
+  }
+
+  li:hover::after {
+    width: 100%;
+  }
+}

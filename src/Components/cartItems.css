@@ -1,0 +1,109 @@
+.cart_item {
+  margin: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 110px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  gap: 10px;
+  text-align: left;
+  padding: 0 5px;
+  border-radius: 25px;
+  -webkit-box-shadow: 5px 5px 5px rgba(34, 34, 34, 0.1);
+          box-shadow: 5px 5px 5px rgba(34, 34, 34, 0.1);
+}
+
+.item_description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+}
+
+.item_description img {
+  width: 90px;
+  height: 90px;
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(34, 34, 34, 0.2));
+          filter: drop-shadow(5px 5px 5px rgba(34, 34, 34, 0.2));
+}
+
+.item_description button {
+  font-weight: normal;
+  background: none;
+  color: #42825a;
+  padding: 0;
+}
+
+.item_description button:hover {
+  background: none;
+  color: #215a43;
+}
+
+.item_description div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 10px 10px;
+}
+
+.quantity_buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 120px;
+  padding: 0;
+}
+
+.quantity_buttons button {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+.quantity_buttons button:first-child {
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.quantity_buttons button:last-child {
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+.quantity_buttons span {
+  width: 40px;
+  border: 2px solid #509565;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: bold;
+}
+/*# sourceMappingURL=cartItems.css.map */

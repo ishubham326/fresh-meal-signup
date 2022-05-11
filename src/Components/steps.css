@@ -1,0 +1,19 @@
+.step {
+  text-align: center;
+  width: 100%;
+}
+
+.step img {
+  width: 200px;
+}
+
+.step h2 {
+  font-family: "Alegreya", serif;
+  color: #265a44;
+}
+
+.step:nth-child(2) img {
+  width: 170px;
+  padding-bottom: 15px;
+}
+/*# sourceMappingURL=steps.css.map */

@@ -1,0 +1,20 @@
+.product_cart_container {
+  padding: 25px 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #dbebdf91;
+}
+
+.products {
+  width: 65%;
+}
+
+.cart {
+  width: 35%;
+}
+/*# sourceMappingURL=products.css.map */

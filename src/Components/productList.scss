@@ -1,0 +1,45 @@
+.card_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+h1 {
+  margin-left: 6px;
+  margin-bottom: 20px;
+}
+.filter_box {
+  display: flex;
+  align-items: center;
+  width: 96%;
+  height: 50px;
+  margin: 20px 0;
+  background-color: #fbfaf4;
+  box-shadow: 5px 5px 5px rgba(34, 34, 34, 0.1);
+  border-radius: 15px;
+  p {
+    margin: 0px 10px;
+  }
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.filter_input {
+  display: none;
+}
+.filter_label {
+  padding: 8px 14px;
+  margin: 0 2px;
+  //background-color: aquamarine;
+  cursor: pointer;
+  transition: background 0.3s;
+  border-radius: 25px;
+
+  &:hover {
+    background-color: #c5c5c5;
+  }
+}
+
+.filter_input:checked + .filter_label {
+  background-color: #df6236;
+  color: white;
+}

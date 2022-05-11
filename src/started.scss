@@ -1,0 +1,56 @@
+.left_side {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(245, 242, 225, 0.7),
+      rgba(251, 250, 244, 0.9)
+    ),
+    url("./images/homepage_hero_10_1.webp");
+  //background-color: #fbfaf4;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  gap: 50px;
+  flex-direction: column !important;
+  justify-content: center;
+}
+
+.right_side {
+  padding: 130px 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column !important;
+  justify-content: flex-start;
+  align-items: center;
+
+  h1 {
+    font-family: "Alegreya", serif;
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    line-height: 50px;
+  }
+}
+
+.started_form {
+  margin: 20px 0;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 500px;
+  button {
+    margin-top: 20px;
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
+
+// @media only screen and (max-width: 1000px) {
+//   .left_side {
+//     display: none;
+//   }
+// }
